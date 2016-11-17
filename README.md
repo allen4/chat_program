@@ -6,15 +6,4 @@ Chat clients are java programs which can connect to a chat server.
 
 The chat server is a java application which can accept multiple incoming TCP connections.
 
-Each line of input is interpreted by the client as either a command or a message.  If the line of input starts with a hash character "#" then it is interpreted as a command, otherwise it is iterpreted as a message:
-
-Usage is:
- 	#identitychange [new identity]
- 	#authenticate [new identity] [password]
-	#join [roomid]
-	#who [roomid]
-	#list
-	#createroom [roomid]
-	#kick [roomid] [username] [kick time]
-	#delete [roomid]
-	#quit
+Each line of input is interpreted by the client as either a command or a message.  If the line of input starts with a hash character "#" then it is interpreted as a command, otherwise it is iterpreted as a message.
